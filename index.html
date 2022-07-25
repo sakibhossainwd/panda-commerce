@@ -10,7 +10,7 @@
 <body class="width-80">
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar fixed-top navbar-expand-lg bg-light">
             <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="images/logo.png" alt="">
@@ -24,13 +24,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Shoes</a>
+                    <a class="nav-link active" aria-current="page" href="#Shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Backpack</a>
+                    <a class="nav-link active" aria-current="page" href="#Backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                    <a class="nav-link active" aria-current="page" href="#subcribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -140,7 +140,7 @@
         </div>
       </section>
       <!-- Shoes part -->
-      <section class="container my-5"> 
+      <section class="container my-5" id="Shoes"> 
         <h2>Shoes</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -180,7 +180,7 @@
         </div>
       </section>
       <!-- bag part -->
-      <section class="container my-5"> 
+      <section class="container my-5" id="Backpack"> 
         <h2>Bag</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
           <div class="col">
@@ -216,10 +216,25 @@
               </div>
               </div>
           </div>
-          
+          </div>
+      </section>
+      <!-- Subcribe part start -->
+      <section class="container d-flex justify-content-center bg-secondary p-5 rounded-4 my-5" id="subcribe">
+        <div class="text-white">
+          <h1>LET'S STAY IN TOUCH</h1>
+          <p>Get updates on sales, specials and more</p>
+        <form>
+          <div class="mb-4">
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+         <button type="submit" class="btn btn-warning">Submit</button>
+        </form>
         </div>
       </section>
     </main>
+    <footer>
+      <p class=" text-center">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+    </footer>
     
 </body>
 </html>
